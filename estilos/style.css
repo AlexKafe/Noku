@@ -1,15 +1,125 @@
 @charset "UTF-8";
 
 /* versao mobile first*/
+
+
+
+
+
+
+
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    padding: 0px;
-}
+    padding: 0px; }
+    
+
+    body {
+        color: #400135;
+        color:#59024B;
+        color: #8C1879;
+        color: #A673D9;
+        color: #ffff00;
+    }
+
 html {
-    background-image: linear-gradient(to top, #3D1156, #700256);
+    /*background-image: linear-gradient(to top, #3D1156, #700256);*/
+    background-color: #700256;
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+header > h1 {
+    text-align: center;
+}
+nav {
+    display: none;
+}
+nav > ul {
+    list-style-type: none;
+}
+nav > ul > li > a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color:#59024B ;
+    color: #ffff00;
+    border: 1.5px solid #22001c;
+    font-size: 20px;
+    box-shadow: 1px 1px 4px 1px  black;
+    text-shadow: 2px 2px 1px black;
+    font-weight: bold;
+}
+nav > ul > li > a:hover {
+    background-color:#96057e ;
+}
+span#burguer {
+    display: block;
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    
+}
+span#burguer:hover {
+    cursor: pointer;
 }
 main {
-    background-color: rgba(20, 20, 20, 0.568);
-    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
 }
+section {
+    background-color:rgba(0, 0, 0, 0.432);
+    height: 90%;
+    width: 95%;      
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.noku-zero {
+    display: block;
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 200px;
+    
+}
+.noku3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 400px;
+}
+.noku-drink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 400px;
+}
+
+
+article
+{
+   
+}
+
+footer {
+    
+}
+
+
+
