@@ -12,7 +12,7 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     /*background-color: #700256;*/
-    height: 100vh;
+    height: 100%;
     width: 100%;
     
     
@@ -60,7 +60,7 @@ span#burguer {
     display: block;
     text-align: right;
     background-color: black;
-    color: white;
+    color: #59024B;
     padding: 10px;
     border-radius: 2px;
     
@@ -83,7 +83,7 @@ article {
 }
 article > p {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px;
     
 }
@@ -108,7 +108,7 @@ section {
     display: flex;
     align-items: center;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding: 15px;
     padding-bottom: 40px;
     
@@ -161,8 +161,8 @@ color:rgb(0, 121, 0) ;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
-    width: 450px;
+    height: 300px;
+    width: 320px;
     margin-bottom: 40px;
 }
 .noku-drink {
@@ -171,20 +171,21 @@ color:rgb(0, 121, 0) ;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    height: 320px;
-    width: 450px;
+    height: 300px;
+    width: 320px;
 }
 .container2 {
     display: flex;
     align-items: center;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding: 15px;
     padding-bottom: 40px;
     
 }
 .container2 > p {
-    margin: 20px;
+    margin: 10px;
+    margin-right: 0px;
 }
 .m {
     font-size: 15px;
