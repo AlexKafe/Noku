@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/*versao media query*/
+
+@media screen and (min-width: 768px) { /*tablet pequeno*/
+    header > p {
+        margin-bottom: 15px;
+    }
+    span#burguer {
+        display: none;
+    }
+    nav {
+        display: block;  
+    }
+    nav > ul > li > a {
+        box-shadow: none;
+        border: 2px solid black;
+    }
+    nav > ul > li  {
+        display: inline-block;  
+    }
+    .container {
+        font-size: 35px;
+    }
+    article > p {
+        font-size: 35px;
+    }
+    .noku3 {
+        height: 500px;
+        width: 680px;
+        
+    }
+    .noku-drink {
+        height: 400px;
+        width: 680px;
+    }
+    .container2 > p {
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 1024px) { /*tablet grande*/   
+    }
+    nav > ul > li {
+        width: 180px;
+        
+    }
+    .noku3 {
+        height: 600px;
+        width: 900px;
+    }
+    .noku-drink {
+        height: 550px;
+        width: 900px;
+    }
+@media screen and (min-width: 1200px) { /*notebook/PC*/
+    .noku3 {
+        height: 650px;
+        width: 1000px;
+    }
+    .noku-drink {
+        width: 1000px;
+    }
+}

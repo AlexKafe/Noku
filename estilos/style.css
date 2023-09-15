@@ -12,8 +12,7 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     /*background-color: #700256;*/
-    height: 100%;
-    width: 100%;
+    
     
     
 }
@@ -36,6 +35,7 @@ header > p {
 }
 nav {
     display: none;
+    
 }
 nav > ul {
     list-style-type: none;
@@ -62,9 +62,7 @@ span#burguer {
     background-color: black;
     color: #59024B;
     padding: 10px;
-    border-radius: 2px;
-    
-    
+    border-radius: 2px;  
 }
 span#burguer:hover {
     cursor: pointer;
@@ -76,10 +74,6 @@ main {
     margin-top: 30px;
     margin-bottom: 50px;
    margin-bottom: 20px;
-}
-article {
-    
-    
 }
 article > p {
     color: white;
@@ -139,7 +133,7 @@ section {
     margin-left: 6%;
     margin-bottom: 6%;
     font-size: 20px;
-    color: black;  
+    color: white;  
     font-weight: 600;
 }
 .nokup {
@@ -171,7 +165,7 @@ color:rgb(0, 121, 0) ;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    height: 300px;
+    height: 200px;
     width: 320px;
 }
 .container2 {
