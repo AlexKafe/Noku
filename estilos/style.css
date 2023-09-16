@@ -12,7 +12,8 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     /*background-color: #700256;*/
-    
+    height: 100%;
+    width: 100%;
     
     
 }
